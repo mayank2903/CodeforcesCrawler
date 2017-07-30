@@ -6,9 +6,9 @@ Feedback link: https://goo.gl/forms/kijsxr0BatZhbTxE3
 Usage Instructions:
 ---------------------
 
-Download CodeforcesCrawler.jar from the repository.
+1. Download CodeforcesCrawler.jar from the repository.
 
-$ java -jar CodeforcesCrawler.jar <username>
+2. $ java -jar CodeforcesCrawler.jar \<username\>
 
 Example:
 ---------
