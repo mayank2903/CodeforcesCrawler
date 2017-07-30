@@ -18,9 +18,9 @@ import org.jsoup.nodes.Document;
 public class CodeforcesCrawler {
     private static final double CODEFORCES_QPS_LIMIT = 5.0;
     private static final String CODEFORCES_SOLUTION_URL_FORMAT = "http://codeforces.com/contest/%s/submission/%s";
-    private static final String CODEFORCES_SOLUTIONS_DIR = System.getProperty("user.home") + FILE_SEPARATOR + "CodeforcesSolutions";
     private static final String CODEFORCES_SUBMISSIONS_URL_FORMAT = "http://codeforces.com/api/user.status?handle=%s&from=1";
     private static final String FILE_SEPARATOR = System.getProperty("file.separator");
+    private static final String CODEFORCES_SOLUTIONS_DIR = System.getProperty("user.home") + FILE_SEPARATOR + "CodeforcesSolutions";
     private static final String SOLUTION_FILE_PATH_FORMAT = CODEFORCES_SOLUTIONS_DIR + FILE_SEPARATOR + "%s" + FILE_SEPARATOR + "%s";
     private static final String VERDICT_OK = "OK";
 
