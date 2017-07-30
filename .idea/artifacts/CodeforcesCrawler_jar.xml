@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CodeforcesCrawler:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CodeforcesCrawler_jar</output-path>
+    <root id="archive" name="CodeforcesCrawler.jar">
+      <element id="module-output" name="CodeforcesCrawler" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jsoup-1.10.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/guava-16.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
