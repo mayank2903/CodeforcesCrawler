@@ -11,7 +11,7 @@ $ java -jar CodeforcesCrawler.jar <username>
 
 Example:
 ---------
-$ java -jar CodechefCrawler.jar mb1994
+$ java -jar CodeforcesCrawler.jar mb1994
 
 Features:
 ----------
