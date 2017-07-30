@@ -79,7 +79,7 @@ public class CodeforcesCrawler {
             if (submission.get("verdict").toString().equals(VERDICT_OK)) {
                 int submissionId = Integer.parseInt(submission.get("id").toString());
                 int contestId = Integer.parseInt(submission.get("contestId").toString());
-                String problemName = ((JSONObject)submission.get("problem")).get("name").toString();
+                String problemName = Integer.toString(contestId) + ((JSONObject)submission.get("problem")).get("index").toString();
                 String programmingLanguage = submission.get("programmingLanguage").toString();
 
                 if (alreadyFetchedSolutions.containsKey(problemName)) {
