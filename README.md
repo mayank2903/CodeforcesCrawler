@@ -7,6 +7,7 @@ Usage Instructions:
 ---------------------
 
 Download CodeforcesCrawler.jar from the repository.
+
 $ java -jar CodeforcesCrawler.jar <username>
 
 Example:
